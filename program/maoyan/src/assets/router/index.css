@@ -1,0 +1,39 @@
+
+.footerNav{
+    position:fixed ;
+    bottom: 0px;
+    height: 48px;
+    border: 2px solid #ebebeb;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    font-size: 12px;
+    z-index:2;
+}
+
+nav{
+    background: #fff;
+}
+.footerNav .App-link{
+    color:#969696;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items:center ;
+
+
+}
+.footerNav .App-active{
+    color:#f03d37;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items:center ;
+}
+.footerNav .iconfont{
+    font-size:25px
+}
+
+
+

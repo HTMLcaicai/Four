@@ -1,0 +1,331 @@
+*{box-sizing:border-box;}
+body{display: flex;
+    flex-direction:column ;
+    
+}
+.App{
+  width: 100%;
+}
+.header1{
+    width:100%;
+    background:#e54847;
+    height:50px ;
+    color:#ffffff;
+    text-align: center;
+    position: fixed;
+    top:0;
+    font-size: 18px;
+    line-height: 50px;
+    z-index:2;
+}
+
+.headerApp{
+    height:64px;
+    border-bottom: 2px solid #f0f0f0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top:50px;
+}
+
+/*.appLeft{*/
+    /*margin-left: -150px;*/
+/*}*/
+
+.headerApp .iconfont{
+    font-size: 44px;
+    color:#ed1c23
+}
+.appLeft .logo{
+    font-size:17px;
+    color:#3d3d3d;
+}
+.headerApp span{
+    font-size: 12px;
+    color:#acacac
+}
+.openApp{
+    background:#ef4238;
+    width: 68px;
+    height: 30px;
+    border-radius:3px;
+    text-align: center;
+    font-size: 12px;
+    color:#fff;
+    line-height: 30px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    height: 55px;
+    border-bottom: 2px solid #f0f0f0;
+    align-items: center;
+}
+/*定位*/
+.play21{
+    font-size: 15px;
+    font-weight: 700;
+    height: 55px;
+    text-align: center;
+    line-height: 55px;
+    color:#777
+
+    
+    /* border-bottom: 2px solid #ef4238; */
+}
+.play22{
+    font-size: 15px;
+    font-weight: 700;
+    height: 55px;
+    text-align: center;
+    line-height: 55px;
+    border-bottom: 2px solid #ef4238;
+    color:#ef4238
+}
+
+.playIncont .iconfont {
+    font-size: 20px;
+    color:#ef4238;
+}
+.warp{
+    /* position: absolute; */
+    width: 100%;
+    /* height: 100%; */
+    overflow: auto;
+    
+}
+
+
+
+.most-expected{
+    padding: 12px 0 12px 15px;
+    background-color: #fff;
+    margin-bottom: 10px;
+    
+
+    
+
+}
+.most-expected::-webkit-scrollbar{
+  display: none;
+  height: 0!important;
+  overflow: scroll;
+
+}
+.title{
+    margin: 0;
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 12px;
+
+}
+.most-expected-list{
+    display: flex;
+    overflow: auto;
+    /* flex:1; */
+    width: 347px;
+    height: 161px;
+    overflow: scroll;
+
+    
+    
+}
+.expected-item{
+    display: inline-block;
+    width: 85px;
+    background: #fff;
+    margin-right: 10px;
+    /* overflow: scroll; */
+
+
+}
+.itemImg{
+    width: 85px;
+    height: 115px;
+    position: relative;
+    margin-bottom: 6px;
+
+}
+
+
+.itemImg img{
+    width:85px ;
+    height: 115px;
+ }
+ .wish{
+    position: absolute;
+    left: 4px;
+    bottom: 2px;
+    color: #faaf00;
+    font-size: 11px;
+    font-weight: 600;
+ }
+ .wishNum{
+    color: #faaf00;
+    font-size: 11px;
+    font-weight: 600
+ }
+
+ .hotName{
+    margin: 0;
+    font-size: 13px;
+    color: #222;
+    margin-bottom: 3px;
+ }
+ .date{
+    margin: 0;
+    font-size: 12px;
+    color: #999;
+ }
+
+ .coming-list{
+     background: #fff;
+ }
+ .bottomDate{
+    padding: 12px 15px 0;
+    margin: 0;
+    font-size: 14px;
+    color: #333;
+ }
+
+  .bottomMovie{
+    padding-left: 15px;
+    background-color: #fff;
+    width: 100%;
+    height: 114px;
+    position: relative;
+ }
+ .movieMain{
+    position: relative;
+    width: 100%;
+
+ }
+
+ .avatar{
+    width: 64px;
+    height: 90px;
+    position: relative;
+    margin-top: 12px;
+    float: left;
+ }
+.defautImg img{
+    width: 64px;
+    height: 90px;
+}
+  .movieContent{
+    padding: 0px 14px 12px 0;
+    margin-left: 74px;
+    width: 272px;
+    height: 114px;
+    /* max-height: 90px; */
+    position: relative;
+  }
+  .contentMid{
+      width: 211px;
+      height: 114px;
+    padding-right: 5px;
+    margin-right: 48px;
+    overflow: hidden;
+  }
+  .movieTitle{
+    max-height: 24px;
+    margin-bottom: 7px;
+    line-height: 24px;
+    overflow: hidden;
+    display: flex;
+    /* margin-top:10px; */
+
+  }
+  .titleName{
+    font-size: 17px;
+    color: #333;
+    font-weight: 700;
+    padding-right: 5px;
+    flex-shrink: 1;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+
+ .movieDetail {
+    box-sizing: border-box;
+    line-height: 1;
+    overflow: hidden;
+  }
+
+  .wantNum{
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    margin-bottom: 6px;
+  }
+  .person{
+    color: #faaf00;
+    font-size: 15px;
+    font-weight: 600;
+
+  }
+  .p-suffix{
+    font-size: 13px;
+    margin-left: -2px;
+    display: inline-block;
+    color: #666;
+
+  }
+  .actor{
+    margin-top: 6px;
+    line-height: 15px;
+    font-size: 13px;
+    width: 180px;
+    color: #666;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap
+
+  }
+  .playTime{
+    margin-top: 6px;
+    line-height: 15px;
+    font-size: 13px;
+    color: #666;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap
+  }
+  .want{
+    font-size: 12px;
+    position: absolute;
+    right: 14px;
+    top: 0;
+    bottom: 0;
+    height: 27px;
+    margin: auto;
+  }
+  .wantButton{
+    background-color: #faaf00;
+    border: none;
+    color: #fff;
+    width: 47px;
+    height: 27px;
+    line-height: 28px;
+    text-align: center;
+    box-sizing: border-box;
+    border-radius: 4px;
+    white-space: nowrap;
+    font-size: 12px;
+    cursor: pointer;
+  }
+  .wantBtn{
+    color: #fff;
+    background-color: #faaf00;
+    border: none;
+    width: 47px;
+    height: 27px;
+    line-height: 28px;
+    text-align: center;
+    border-radius: 4px;
+    white-space: nowrap;
+    font-size: 12px;
+    cursor: pointer;
+  }

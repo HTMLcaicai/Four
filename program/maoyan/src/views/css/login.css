@@ -1,0 +1,199 @@
+/**{*/
+    /*margin:0;*/
+    /*padding:0;*/
+    /*text-decoration: none;*/
+    /*color:#000;*/
+/*}*/
+.baoguo {
+    background: #f8f8f8;
+    width:100%;
+    height: 100%;
+    overflow: hidden;
+    /* background: black; */
+}
+.Login-Header{
+    width:100%;
+    height:44px;
+    background:#df2d2d;
+    display: flex;
+    box-sizing: border-box;
+    border:1px solid #f0a7a7;
+}
+.Login-Header-Left{
+    font-size:20px;
+    text-align: center;
+    line-height: 44px;
+    margin-left:12px;
+    color:#fcecec;
+}
+.Login-Header-Right{
+    font-size:17px;
+    text-align: center;
+    color:#fdf4f4;
+    line-height: 44px;
+    margin-left:113px;
+}
+.Login-Method {
+    box-sizing: border-box;
+    width:100%;
+    height:40px;
+    border-bottom: 4px solid #d6d6d6;
+    position: relative;
+}
+.Login-Method-Left {
+    width:177px;
+    height: 36px;
+    text-align: center;
+    line-height: 36px;
+    color: #222222;
+    font-size:14px;
+    font-weight: bold;
+    float: left;
+    margin-left:10px;
+}
+.Login-Method-Right {
+    width:177px;
+    height: 36px;
+    text-align: center;
+    line-height: 36px;
+    color: #222222;
+    font-size:14px;
+    font-weight: bold;
+    float: left;
+    margin-right:10px;
+}
+.Login-Method-Move-Left {
+    width:177px;
+    height:4px;
+    background:#ffc300;
+    position: absolute;
+    bottom:-4px;
+    left: 10px;
+}
+.Login-Method-Move-Right {
+    width:177px;
+    height:4px;
+    background:#ffc300;
+    position: absolute;
+    bottom:-4px;
+    right: 10px;
+    display: none;
+}
+.Login-Meituan {
+    box-sizing: border-box;
+    width:100%;
+    /* height:85px; */
+    border:1px solid #f7f7f7;
+    /* background:yellow; */
+    padding-left:10px;
+}
+.Login-Meituan-Name {
+    /* box-sizing: border-box; */
+    height:42px;
+    /* background:red; */
+    padding-right:10px;
+    border-bottom:1px solid #f1f1f1;
+    overflow: hidden;
+}
+/* .Login-Meituan p {
+    background:#fff;
+} */
+.Login-Meituan input {
+    width:350px;
+    height:30px;
+    font-size:17px;
+    outline:none;
+    border:0;
+    margin-top:6px;
+    /* background: yellow; */
+}
+.Login-Meituan-PassWord {
+    /* box-sizing: border-box; */
+    height:42px;
+    padding-right:10px;
+    /* border-bottom:1px solid #000; */
+    overflow: hidden;
+}
+.Login-Botton {
+    width:350px;
+    height:30px;
+    text-align: center;
+    line-height: 30px;
+    font-size:14px;
+    color:#fff;
+    background:#df2d2d;
+    border:0;
+    border-radius: 2px;
+    margin-top:14px;
+}
+.Login-UseLess {
+    width:100%;
+    height:440px;
+    background:#f8f8f8;
+}
+.Register-Retrieve {
+    margin-top:15px;
+    width:355px;
+    height:30px;
+    margin-left:10px;
+    /* background: yellow; */
+}
+.Register {
+    float:left;
+    color:#fe8c00;
+}
+.Retrieve-PassWord {
+    float:right;
+    color:#fe8c00;
+}
+.Service {
+    margin-top:15px;
+}
+.PhoneNum {
+    color:#df2d2d;
+}
+.Login-Phone {
+    box-sizing: border-box;
+    width:100%;
+    /* height:85px; */
+    border:1px solid #f7f7f7;
+    /* background:yellow; */
+    padding-left:10px;
+    display: none;
+}
+.Login-Phone-Name {
+    /* box-sizing: border-box; */
+    height:42px;
+    /* background:red; */
+    padding-right:10px;
+    border-bottom:1px solid #f1f1f1;
+    overflow: hidden;
+}
+.Login-Phone input {
+    width:100%;
+    height:30px;
+    font-size:17px;
+    outline:none;
+    border:0;
+    margin-top:6px;
+    /* background: yellow; */
+}
+.Login-Phone-PassWord {
+    /* box-sizing: border-box; */
+    height:42px;
+    padding-right:10px;
+    /* border-bottom:1px solid #000; */
+    overflow: hidden;
+}
+.Login-Phone-Botton {
+    width:355px;
+    height:30px;
+    text-align: center;
+    line-height: 30px;
+    font-size:14px;
+    color:#fff;
+    background:#df2d2d;
+    border:0;
+    border-radius: 2px;
+    margin-top:14px;
+}

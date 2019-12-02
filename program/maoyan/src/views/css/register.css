@@ -1,0 +1,120 @@
+/**{*/
+    /*margin:0;*/
+    /*padding:0;*/
+    /*text-decoration: none;*/
+    /*color:#000;*/
+/*}*/
+.baoguo {
+    background: #f8f8f8;
+    width:100%;
+    height: 100%;
+    overflow: hidden;
+    /* background: black; */
+}
+.Register-Header{
+    width:100%;
+    height:44px;
+    background:#df2d2d;
+    display: flex;
+    box-sizing: border-box;
+    border:1px solid #f0a7a7;
+}
+.Register-Header-Left{
+    font-size:20px;
+    text-align: center;
+    line-height: 44px;
+    margin-left:12px;
+    color:#fcecec;
+}
+.Register-Header-Right{
+    font-size:17px;
+    text-align: center;
+    color:#fdf4f4;
+    line-height: 44px;
+    margin-left:113px;
+}
+.baoguo .navR {
+    width:100%;
+    height:43px;
+    box-sizing: border-box;
+    border:1px solid #fdf4f4;
+    text-align: center;
+    line-height: 41px;
+    margin-bottom: 10px;
+    background: #fff;
+}
+.baoguo .navR span {
+    padding:0 10px;
+    font-size:14px;
+}
+.EnterPhone {
+    color:#df2d2d;
+}
+.Register-Meituan {
+    box-sizing: border-box;
+    width:100%;
+    height:43px;
+    border:1px solid #f7f7f7;
+    background:#fff;
+    padding-left:10px;
+}
+.Register-Meituan-Name {
+    /* box-sizing: border-box; */
+    height:42px;
+    /* background:red; */
+    padding-right:10px;
+    /* border-bottom:1px solid #f1f1f1; */
+    overflow: hidden;
+}
+.Register-Meituan input {
+    width:100%;
+    height:30px;
+    font-size:17px;
+    outline:none;
+    border:0;
+    margin-top:6px;
+}
+.agreeProcoal {
+    width:350px;
+    height:23px;
+    margin-top:13px;
+    margin-bottom:11px;
+    padding-left:10px;
+}
+.counter {
+    display: inline-block;
+    width:23px;
+    height:23px;
+    background: #df2d2d;
+    color:#fff;
+    text-align: center;
+    line-height:23px;
+    margin-right:5px;
+}
+.agreeProcoal span {
+    font-size: 14px;
+    text-align: center;
+    float: left;
+    line-height: 23px;
+}
+.userAgreeMent {
+    color:#df2d2d;
+}
+.Register-Botton {
+    width:355px;
+    height:48px;
+    color:#9f9f9f;
+    font-size: 20px;
+    text-align: center;
+    line-height: 48px;
+    background:#dcdcdc;
+    border:0;
+    /* outline:none; */
+    border-radius: 3px;
+}
+.authCode {
+    display: none;
+}
+.passWord {
+    display: none;
+}
