@@ -6,7 +6,8 @@ import {
     bindActionCreators
 } from 'redux';
 import {
-    Link
+    Link,
+    withRouter
 } from 'react-router-dom'
 // 样式
 import "../../assets/thearte/css/thearte.css";
@@ -34,7 +35,7 @@ class Theatre extends React.Component {
                                     <b className={"clickPosition"}>北京</b>
                                     <i className={"iconfont icon-xiala"}></i>
                                 </li>
-                                <li>
+                                <li onClick={(Search)=>this.props.history.push("/search")}>
                                     <i className="iconfont icon-sousuo1"></i>
                                     <span>搜影院</span>
                                 </li>
@@ -107,4 +108,4 @@ function mapDispatchToProps(dispatch) {
     return bindActionCreators(theatreCreator, dispatch)
 }
 
-export default connect(mapStateToProps, mapDispatchToProps)(Theatre)
+export default connect(mapStateToProps, mapDispatchToProps)(withRouter(Theatre))

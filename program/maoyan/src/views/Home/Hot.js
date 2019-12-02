@@ -3,13 +3,13 @@ import "../../assets/Home/font/iconfont.css"
 import "../../assets/Home/hot/index.css"
 // import "../../assets/router/index.css"
 import axios from "axios"
-import {
+import{
     Link,
-    Route
+    withRouter
 } from "react-router-dom"
 import Position from "../../components/common/position";
 
-export default class Hot extends React.Component {
+class Hot extends React.Component {
     constructor() {
         super()
         this.state = {
@@ -188,3 +188,4 @@ export default class Hot extends React.Component {
         this.getMost()
     }
 }
+export default withRouter(Hot)
