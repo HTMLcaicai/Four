@@ -1,0 +1,74 @@
+.positionHot{
+    width:30px;
+    position:fixed;
+    right:0px;
+    top:105px;
+}
+.positionHot p{
+    width:15px;
+}
+.positionHot p a{
+    font:12px/12px "";
+    width:12px;
+    float:left;
+    margin-bottom:6px;
+    margin-left:16px;
+    text-decoration: none;
+}
+.losePosition{
+    display: block;
+    background: #fff;
+    width: 50%;
+    height: 33px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    margin-left: 4%;
+    padding: 0 4px;
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+    line-height: 33px;
+    text-align: center;
+
+}
+.citysTitle{
+    background-color:rgb(235,235,235);
+    height:26.5px;
+    font:13px/26.5px "";
+    text-align: left;
+    text-indent:2em;
+}
+.cityOne{
+    height:33px;
+    width:29%;
+    border:1px solid #ececec;
+    font:13px/33px "";
+    text-align: center;
+    margin:5px 0px 5px 10px ;
+    float:left;
+    display: block;
+    background-color:rgb(255,255,255);
+}
+.citysBody{
+    position:relative;
+    margin:auto;
+    z-index:70;
+    height:100%;
+    display: none;
+}
+.citysCommon{
+    display: flex;
+    flex-direction:column;
+    flex-wrap:wrap;
+    background-color:rgb(245,245,245);
+
+
+}
+.citys{
+    width:264px;
+    height:41px;
+    border-bottom:1px solid #ccc;
+    justify-content: space-around;
+    margin:auto;
+    text-align: left;
+    font:13px/41px "";
+}

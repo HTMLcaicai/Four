@@ -1,0 +1,175 @@
+*{box-sizing:border-box;}
+body{display: flex;
+    flex-direction:column ;
+}
+
+.header1{
+    width:100%;
+    background:#e54847;
+    height:50px ;
+    color:#ffffff;
+    text-align: center;
+    position: fixed;
+    top:0;
+    font-size: 18px;
+    line-height: 50px;
+    z-index:2;
+}
+
+.headerApp{
+    height:64px;
+    border-bottom: 2px solid #f0f0f0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top:50px;
+}
+
+/*.appLeft{*/
+    /*margin-left: -150px;*/
+/*}*/
+
+.headerApp .iconfont{
+    font-size: 44px;
+    color:#ed1c23
+}
+.appLeft .logo{
+    font-size:17px;
+    color:#3d3d3d;
+}
+.headerApp span{
+    font-size: 12px;
+    color:#acacac
+}
+.openApp{
+    background:#ef4238;
+    width: 68px;
+    height: 30px;
+    border-radius:3px;
+    text-align: center;
+    font-size: 12px;
+    color:#fff;
+    line-height: 30px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    height: 55px;
+    border-bottom: 2px solid #f0f0f0;
+    align-items: center;
+}
+/*定位*/
+.play11{
+    font-size: 15px;
+    font-weight: 700;
+    height: 55px;
+    text-align: center;
+    line-height: 55px;
+    border-bottom: 2px solid #ef4238;
+    color:#ef4238
+
+   
+}
+
+
+.play12{
+    font-size: 15px;
+    font-weight: 700;
+    height: 55px;
+    text-align: center;
+    line-height: 55px;
+    color:#777
+
+    /* border-bottom: 2px solid #ef4238; */
+
+   
+}
+
+.playIncont .iconfont {
+    font-size: 20px;
+    color:#ef4238;
+}
+section{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+    margin-bottom: 60px;
+}
+.content{
+    height: 113px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    border-bottom: 1px solid #f0f0f0;
+    padding:0px 10px 0px 10px;
+
+}
+.contentTwo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+h3{
+    font-size:17px;
+    font-weight:700;
+    color:#333;
+
+}
+
+.contentL img{
+    height: 90px;
+    width: 64px;
+}
+.contentM{
+    height: 107px;
+    margin-left: 10px;
+    width:154px;
+    padding-top:8px;
+}
+.contentM h3{
+    margin-bottom:7px;
+}
+.people{
+    font-size:14px;
+    color:#777;
+}
+.assess{
+    font-size:15px;
+    color:#faaf00;
+    font-weight:700;
+    margin-top:6px;
+}
+.action{
+    font-size:13px;
+    color:#666;
+    margin-top:6px;
+    /*width: 234px;*/
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.today{
+    font-size:13px;
+    color:#666;
+}
+
+.buy{
+    width: 47px;
+    height: 27px;
+    background:#f03d37;
+    font-size:12px ;
+    color:#fff;
+    line-height: 27px;
+    text-align: center;
+    margin-right:5px;
+}
+
+
+
+
+
+
+

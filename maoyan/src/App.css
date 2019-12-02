@@ -1,22 +1,78 @@
-.App {
-  text-align: center;
-}
+/*!*.App {*!*/
+  /*!*text-align: center;*!*/
+/*!*}*!*/
 
-.App-logo {
-  height: 40vmin;
-}
+/*!*.App-logo {*!*/
+  /*!*height: 40vmin;*!*/
+/*!*}*!*/
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+/*!*.App-header {*!*/
+  /*!*background-color: #282c34;*!*/
+  /*!*min-height: 100vh;*!*/
+  /*!*display: flex;*!*/
+  /*!*flex-direction: column;*!*/
+  /*!*align-items: center;*!*/
+  /*!*justify-content: center;*!*/
+  /*!*font-size: calc(10px + 2vmin);*!*/
+  /*!*color: white;*!*/
+/*!*}*!*/
 
-.App-link {
-  color: #09d3ac;
-}
+/*!*.App-link {*!*/
+  /*!*color: #09d3ac;*!*/
+  /*!*padding:10px*!*/
+/*!*}*!*/
+/*!*.App-active {*!*/
+  /*!*color: red;*!*/
+  /*!*padding:10px*!*/
+/*!*}*!*/
+/**{box-sizing:border-box;}*/
+/*body{display: flex;*/
+  /*flex-direction:column ;*/
+
+/*}*/
+/*.header1{*/
+  /*width:100%;*/
+  /*background:#e54847;*/
+  /*height:60px ;*/
+  /*color:#ffffff;*/
+  /*text-align: center;*/
+  /*font-size: 20px;*/
+  /*line-height: 60px;*/
+/*}*/
+/*.headerApp{*/
+  /*height:77px;*/
+  /*border-bottom: 2px solid #f0f0f0;*/
+  /*display: flex;*/
+  /*justify-content: space-around;*/
+  /*align-items: center;*/
+/*}*/
+/*.appLeft{*/
+  /*margin-left: -150px;*/
+/*}*/
+/*.headerApp .iconfont{*/
+  /*font-size: 53px;*/
+  /*color:#ed1c23*/
+/*}*/
+/*.appLeft .logo{*/
+  /*font-size:20px;*/
+  /*color:#3d3d3d;*/
+/*}*/
+/*.headerApp span{*/
+  /*font-size: 12px;*/
+  /*color:#acacac*/
+/*}*/
+/*.openApp{*/
+  /*background:#ef4238;*/
+  /*width: 82px;*/
+  /*height: 38px;*/
+  /*border-radius:3px;*/
+  /*text-align: center;*/
+  /*font-size: 12px;*/
+  /*color:#fff;*/
+  /*line-height: 38px;*/
+/*}*/
+/*.clickPosition{*/
+  /*width:60px;*/
+  /*height:50px;*/
+  /*background: red;*/
+/*}*/

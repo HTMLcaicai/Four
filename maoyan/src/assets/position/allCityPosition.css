@@ -1,0 +1,191 @@
+.allCitysPosition{
+    height:40px;
+    width:100%;
+    padding-right:15px;
+    border-bottom:2px solid rgb(234,234,234);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font:13px/20px "";
+    /*position:fixed;*/
+    /*z-index: 2;*/
+}
+.allCitysPosition li:nth-child(1),.allCitysPosition li:nth-child(2){
+    text-align: center;
+    width:102px;
+    height:20px;
+    border-right: 1px solid rgb(234,234,234);
+}
+.allCitysPosition li:nth-child(3){
+    text-align: center;
+    width:102px;
+    height:20px;
+}
+.allCityPositionActive{
+    display: none;
+}
+.CurrentCity{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height:43px;
+}
+.CurrentCity span{
+    width:50%;
+    height:43px;
+    text-align: center;
+    font:15px/43px "";
+    color:#777777;
+}
+/*.CurrentCity span:nth-child(1){*/
+ /*border-bottom:2px solid red;*/
+/*}*/
+#storeAndsationId{
+    border-bottom:2px solid red;
+}
+#nostoreAndsationId{
+    border:none;
+}
+.tabCity{
+    width:100%;
+    height:330px;
+    border:1px solid #ccc;
+    background-color: rgb(245,245,245);
+}
+.tabCity ul{
+    float:left;
+    background-color:#fff;
+    overflow: auto;
+    height:330px;
+}
+.tabCity li{
+    width:95px;
+    height:44px;
+    padding:0px 15px 0px 10px ;
+    font:13px/44px "";
+    color:#777777;
+    text-align: center;
+}
+.tabCity li:nth-child(1){
+    background-color: rgb(245,245,245);
+}
+.tabCity #currentCityForck{
+    background-color: rgb(245,245,245);
+}
+.tabCity #emptyForck{
+    background-color: #fff;
+}
+.tabCity div{
+    width:223px;
+    height:330px;
+    float:right;
+    background-color: rgb(245,245,245);
+    overflow: auto;
+    /*margin-right:10px;*/
+}
+.tabCity div p{
+    box-sizing: border-box;
+    padding-left: 30px;
+    padding-right:20px;
+    width:223px;
+    height:45px;
+    font:14px/45px "";
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+}
+/*品牌*/
+.getCurrentBrand{
+    width:100%;
+    height:336px;
+    background-color: #fff;
+    padding:0px 13px 0px 0px;
+    display:none;
+    overflow: auto;
+}
+.brandNameOrCount{
+    display: flex;
+    justify-content: space-between;
+    height:44px;
+    align-items: center;
+    border-bottom:1px solid #e5e5e5;
+}
+.brandNameOrCount:nth-child(1){
+    color:red;
+}
+.allCityBrand{
+    font:15px/44px "";
+    margin-left:26px;
+}
+.allCityCount{
+    font:12px/43px "";
+}
+/*特色*/
+.getCurrentFeature{
+    background-color: #fff;
+    /*overflow: auto;*/
+    display: none;
+}
+#CurrentFeatrue{
+    /*background-color: red ;*/
+    overflow: auto;
+    width:100%;
+    height:200px;
+    padding:0px 12px 12px;
+}
+.getCurrentFeature h3 {
+    font:15px/20px "";
+    heihgt:20px;
+    padding-top:15px;
+    color:#777777;
+    clear: both;
+}
+
+.characteristic span:nth-child(1){
+    border:1px solid red;
+    color:red;
+}
+.characteristic{
+    clear: both;
+}
+.getCurrentFeature .characteristic span{
+    width: 21.3%;
+    height: 38px;
+    padding: 3px 0;
+    margin-top: 10px;
+    margin-right: 3%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font:12px/30px "";
+    float:left;
+}
+#special-btn{
+    height: 60px;
+    width: 100%;
+    border-top: 1px solid #e5e5e5;
+    margin-top: 10px;
+    background: #fafafa;
+    clear:both;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /*position: fixed;*/
+}
+#cancel-btn, #confirm-btn{
+    width:68px;
+    height:36px;
+    border-radius: 6px;
+    float: left;
+    font:12px/30px "";
+    text-align: center;
+    border:1px solid rgb(229,229,229);
+}
+#confirm-btn{
+    background-color: red;
+    color:#fff;
+}

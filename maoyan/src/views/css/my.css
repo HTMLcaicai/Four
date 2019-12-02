@@ -1,0 +1,119 @@
+body {
+    /*color: #777;*/
+    /*overflow: hidden;*/
+    /*background: #f3f3f3;*/
+}
+.navbar {
+    height:50.5px;
+    background:#e54847;
+    color:#fff;
+    font-weight: 400;
+    font-size:14px;
+    text-align: center;
+    line-height: 50px;
+}
+.header {
+    background:#f03d37;
+    background-image: url(http://s0.meituan.net/bs/file/?f=myfe/canary:static/deploy/dpmmweb/client/dpmmweb/component/mycenter/img/bg.png);
+    height:150px;
+    overflow: hidden;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+    background-position-y: center;
+    background-size: 100% 150px;
+}
+.header img {
+    display:inline-block;
+    margin-top:30px;
+    width:60px;
+    height:60px;
+    border-radius: 60px;
+    border:3px solid #fff;
+}
+.group {
+    margin-top:10px;
+    background: #fff;
+}
+.orders {
+    padding:0 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+.group .title {
+    position: relative;
+    margin: 13px 0 0;
+    font-size: 15px;
+    line-height: 21px;
+    height: 21px;
+    color: #333;
+    z-index: 9;
+    display: inline-block;
+    width: 80px;
+    background-color: #fff;
+}
+.group .title-line {
+    position: absolute;
+    top: 23px;
+    left: 50%;
+    margin-left: -80px;
+    width: 160px;
+    height: 1px;
+    border:1px solid #ccc;
+ }
+ .group .list {
+    overflow: hidden;
+    /* text-align: center; */
+    margin-left:60px;
+ }
+ .list .order-item {
+    width: 25%;
+    float: left;
+    height: 97px;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 42px auto;
+    margin-top: 18px;
+
+ }
+ .list .show {
+     background-image: url(http://s0.meituan.net/bs/file/?f=myfe/canary:static/deploy/dpmmweb/client/dpmmweb/component/mycenter/img/movie.png);
+     background-repeat: no-repeat;
+     background-position: top;
+     background-size: 42px auto;
+ }
+ .list .order-item p {
+    position: relative;
+    top: 53px;
+    text-align: center;
+    font-size: 15px;
+    line-height: 21px;
+    height: 21px;
+    margin: 0;
+    color: #333
+ }
+ .list .store {
+    background-image: url(http://s0.meituan.net/bs/file/?f=myfe/canary:static/deploy/dpmmweb/client/dpmmweb/component/mycenter/img/store.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 42px auto;
+    margin-left: 100px;
+}
+.container .group .mb-outline-tb .item span {
+    display: inline-block;
+    width:340px;
+    height:44px;
+    text-align: left;
+    color: #333;
+    line-height: 44px;
+    font-size: 15px;
+    margin-left:10px;
+}
+.container .group .mb-outline-tb .item {
+    width:365px;
+    border-bottom: 1px solid #f3f3f3;
+}
+.container .group .mb-outline-tb .item b{
+    color:#ccc;
+}
